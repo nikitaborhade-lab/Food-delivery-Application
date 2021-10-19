@@ -1,17 +1,20 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
-import {Grid, Paper} from 'react-bootstrap'
 
 function Category() {
   return (
     <>
-      {/* <div class="grid">
-        <div class="g-col-4">.g-col-4</div>
-        <div class="g-col-4">.g-col-4</div>
-        <div class="g-col-4">.g-col-4</div>
-        <div class="g-col-4">.g-col-4</div>
-      </div> */}
+      <div class="container">
+        <div class="row row-cols-3">
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+        </div>
+      </div>
     </>
   );
 }
