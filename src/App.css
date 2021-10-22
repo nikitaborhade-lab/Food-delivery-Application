@@ -1,3 +1,32 @@
+.banner {
+  height: 15rem;
+  opacity: 0.8;
+  background-image: url("./images/banner.jpg");
+}
+
+.header {
+  display: inline;
+  position: absolute;
+  color: black;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.banner button {
+  position: absolute;
+  right: 1rem;
+  margin: 1rem;
+}
+.search {
+  display: inline;
+  position: absolute;
+  font-size: medium;
+  left: 40rem;
+  top: 1rem;
+}
+.search button {
+  position: inherit;
+  display: inline;
+}
 .item-container {
   display: flex;
   flex-direction: row;
@@ -12,9 +41,7 @@
     flex-direction: column;
   }
 }
-.banner {
-  margin: 0 auto 0;
-}
+
 .item {
   margin: 5px;
 }
