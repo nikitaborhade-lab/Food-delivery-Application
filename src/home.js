@@ -1,14 +1,10 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.js'
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.js";
+import banner from "./images/banner.jpg";
 
 import Category from "./Component/Category";
-import {
-  Button,
-  Nav,
-  Navbar,
-  Container
-} from "react-bootstrap";
+import { Button, Nav, Navbar, Container } from "react-bootstrap";
 function Home() {
   return (
     <>
@@ -20,9 +16,12 @@ function Home() {
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
-          <Button>cart</Button>
         </Container>
+        <Button>cart</Button>
       </Navbar>
+      <div className="banner">
+        <img src={banner} alt="Banner" />
+      </div>
       <Category />
     </>
   );

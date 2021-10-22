@@ -1,18 +1,37 @@
 import React from "react";
+import pizza from "../images/pizza.jpg";
 
 function Category() {
   return (
     <>
-      <div class="container">
-        <div class="row row-cols-3">
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
+      <div className="item-container">
+        <div className="item">
+          <img src={pizza} alt="Pizza banner" />
+          <div>Pizza</div>
+        </div>
+        <div className="item">
+          <img src={pizza} alt="Pizza banner" />
+          <div>Pizza</div>
+        </div>
+        <div className="item">
+          <img src={pizza} alt="Pizza banner" />
+          <div>Pizza</div>
+        </div>
+        <div className="item">
+          <img src={pizza} alt="Pizza banner" />
+          <div>Pizza</div>
+        </div>
+        <div className="item">
+          <img src={pizza} alt="Pizza banner" />
+          <div>Pizza</div>
+        </div>
+        <div className="item">
+          <img src={pizza} alt="Pizza banner" />
+          <div>Pizza</div>
+        </div>
+        <div className="item">
+          <img src={pizza} alt="Pizza banner" />
+          <div>Pizza</div>
         </div>
       </div>
     </>
